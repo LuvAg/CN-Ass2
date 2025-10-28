@@ -1,8 +1,4 @@
 """Simple DNS client runner
-
-This is a refactored version of the original `h1_run_queries.py` with renamed
-symbols and clearer structure. It performs A-record queries from a list of
-domains and appends a one-line summary to a CSV results file.
 """
 import dns.resolver
 import time

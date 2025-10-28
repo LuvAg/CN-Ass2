@@ -1,8 +1,4 @@
 """Iterative DNS resolver server
-
-This module implements an iterative-style DNS resolver that queries root/TLD/
-authoritative servers step-by-step. It is a cleaned-up version of the prior
-`custom_dns.py` with renamed symbols and expanded inline comments.
 """
 import socket
 import time

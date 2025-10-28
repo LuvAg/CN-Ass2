@@ -1,8 +1,5 @@
 """Iterative-resolution demo client
-
 Performs iterative-like lookups using the dns library and logs steps to a file.
-This is a refactor of the original `c2.py` with renamed symbols and different
-default result/log filenames. Behavior and log output format remain compatible.
 """
 import dns.resolver
 import dns.message
